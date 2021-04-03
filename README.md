@@ -4,6 +4,28 @@ Load balancer efficiently distributes the network or application traffic across 
 
 The idea is to implement a request-response paradigm. where client request traffic is routed to **public port** and the server farm responses are routed to **private port**.
 
+# Instalation
+### Build LoadBalancer
+- git clone https://github.com/ravi230195/LoadBalancerServer.git
+
+- cd LoadBalancer
+- [cleans the executable]
+  - cmake --build cmake-build-debug --target clean -- -j 6
+  
+- [build executable]
+    - cmake --build cmake-build-debug --target all -- -j 6
+    
+- [run the executable]
+  - ./cmake-build-debug/LoadBalancer
+    
+### Run AppSerevrs for testing
+- [run AppServer]
+  - ./TestFrameWork/runAppServer.sh
+
+### Run Clients for testing
+- [run AppServer]
+    - ./TestFrameWork/runClients.sh
+    
 ## Architecture
 
 ![alt text](<LB_Architecture.jpg>)
