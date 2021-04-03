@@ -19,10 +19,12 @@ The idea is to implement a request-response paradigm. where client request traff
   - ./cmake-build-debug/LoadBalancer
     
 ### Run AppSerevrs for testing
+Open a new terminal go to repository and run below command
 - [run AppServer]
   - ./TestFrameWork/runAppServer.sh
 
 ### Run Clients for testing
+Open a new terminal go to repository and run below command
 - [run AppServer]
     - ./TestFrameWork/runClients.sh
     
