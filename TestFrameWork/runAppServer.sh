@@ -5,9 +5,9 @@
 #echo "Hello World!"
 #exec konsole --noclose -e cat ~/.aliases
 
-g++ AppServer.c -o AppServer
+g++ TestFrameWork/AppServer.c -o TestFrameWork/AppServer
 for i in {9090..9092}
 do
 # opens terminal but then I can't control terminal afterwards
-xterm -hold -e ./AppServer $i &
+xterm -hold -e ./TestFrameWork/AppServer $i &
 done
