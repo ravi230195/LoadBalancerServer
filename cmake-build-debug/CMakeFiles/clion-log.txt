@@ -1,0 +1,4 @@
+/snap/clion/145/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ravikiran/CLionProjects/LoadBalancerServer
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug

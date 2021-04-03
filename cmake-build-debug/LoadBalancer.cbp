@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LoadBalancer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LoadBalancer">
+				<Option output="/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/LoadBalancer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 LoadBalancer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LoadBalancer/fast">
+				<Option output="/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/LoadBalancer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 LoadBalancer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ClientSocket/ClientSocket.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ClientSocket/ClientSocket.h">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ConnectionMapper/ConnectionMapper.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ConnectionMapper/ConnectionMapper.h">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/LoadBalancerServer/Server.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/LoadBalancerServer/Server.h">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/Logging/logger.h">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/NetworkWorker/NetworkWorker.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/NetworkWorker/NetworkWorker.h">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ServerSelectionAlgorithm/AppServerInfo/AppServerInfo.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ServerSelectionAlgorithm/AppServerInfo/AppServerInfo.h">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ServerSelectionAlgorithm/ConsistentHashing/ConsistentHashing.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ServerSelectionAlgorithm/ConsistentHashing/ConsistentHashing.h">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ServerSelectionAlgorithm/IServerSelectionAlgorithm.h">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ServerSelectionAlgorithm/RoundRobin/RoundRobin.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ServerSelectionAlgorithm/RoundRobin/RoundRobin.h">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ServerSelectionAlgorithm/ServerSelection.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ServerSelectionAlgorithm/ServerSelection.h">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ServerSocket/ServerSocket.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ServerSocket/ServerSocket.h">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/Socket/Socket.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/Socket/Socket.h">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ThreadPool/ThreadPool.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ThreadPool/ThreadPool.h">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/main.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
