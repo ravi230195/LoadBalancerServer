@@ -6,7 +6,7 @@ The idea is to implement a request-response paradigm. where client request traff
 
 ## Architecture
 
-
+![alt text](<LB_Architecture.jpg>)
 The sequence of numbers represents the call flow of the requests.
 1. Client opens a TCP socket and sends a request to be processed to the **public port** of the load balancer.
 2. On receiving the request **worker thread** is woken from the thread pool. The threads are maintained by ***threadPool*** Module and tasks are assigned by ***networkWorker*** Module. The following tasks are performed by worker thread.
