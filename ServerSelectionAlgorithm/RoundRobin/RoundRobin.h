@@ -8,7 +8,6 @@
 #include "vector"
 #include "mutex"
 class AppServerInfo;
-class ConsistentHashing;
 class Socket;
 
 class RoundRobin: public IServerSelectionAlgorithm {

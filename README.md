@@ -48,6 +48,31 @@ The sequence of numbers represents the call flow of the requests.
               
 
 ## Modules
+### Configuration
+The configuation are statically read from the ConfigurationManager.xml file.
+example configuraion
+```
+<Configuration>
+    <LoadServerPublicPort>8081</LoadServerPublicPort>
+    <LoadServerPrivatePort>8083</LoadServerPrivatePort>
+    <NumberOfWorkerHreads>50</NumberOfWorkerHreads>
+    <serverSelectionAlgorithm>RoundRobin</serverSelectionAlgorithm>
+    <AppServer Name="Appserver_1">
+        <AppServerConfiguration>
+            <AppServerName>server_1</AppServerName>
+            <AppServerIp>127.0.0.1</AppServerIp>
+            <AppServerPort>9090</AppServerPort>
+        </AppServerConfiguration>
+    </AppServer>
+    <AppServer Name="Appserver_2">
+        <AppServerConfiguration>
+            <AppServerName>server_2</AppServerName>
+            <AppServerIp>127.0.0.1</AppServerIp>
+            <AppServerPort>9091</AppServerPort>
+        </AppServerConfiguration>
+    </AppServer>
+</Configuration>
+```
 
 ### Socket
 Contains API's that can be used to create sockets for both server and client ends. It also provides implementation to send/receive data on a socket. It can be viewed as a file descriptor after the successful creation. 

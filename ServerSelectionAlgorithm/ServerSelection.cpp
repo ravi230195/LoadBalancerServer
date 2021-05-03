@@ -5,7 +5,9 @@
 #include "ServerSelection.h"
 #include "IServerSelectionAlgorithm.h"
 #include "RoundRobin/RoundRobin.h"
+#include "ConsistentHashing/ConsistentHashing.h"
 #include "../Logging/logger.h"
+#include "../ConfigurationManagement/ConfigurationManager.h"
 
 using namespace std;
 
@@ -26,11 +28,12 @@ ServerSelection * ServerSelection::getInstance() {
 }
 
 void ServerSelection::getServerSelection() {
-    /*
-    * TODO: Read from CM for selectionAlgo;
-    */
+
     traceDebug("Selected Round Robin...");
-    mServerSelectionAlgorithm = new RoundRobin();
+    if(ConfigurationManager::getInstance()->getServerSelectionAlgorithm() == "RoundRobin")
+        mServerSelectionAlgorithm = new RoundRobin();
+    else if(ConfigurationManager::getInstance()->getServerSelectionAlgorithm() == "ConsistentHashing")
+        mServerSelectionAlgorithm = new ConsistentHashing();
 }
 
 AppServerInfo* ServerSelection::getAppServerInfo(std::pair<Socket *, std::string> request)

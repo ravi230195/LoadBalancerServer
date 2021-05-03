@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ravikiran/CLionProjects/LoadBalancerServer/Logging/debugUtils.c
+vector
+-
+list
+-
+iostream
+-
+string.h
+-
+mutex
+-
+unordered_map
+/home/ravikiran/CLionProjects/LoadBalancerServer/Logging/unordered_map
+

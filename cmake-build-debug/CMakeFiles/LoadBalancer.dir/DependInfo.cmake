@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ravikiran/CLionProjects/LoadBalancerServer/ClientSocket/ClientSocket.cpp" "/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/CMakeFiles/LoadBalancer.dir/ClientSocket/ClientSocket.cpp.o"
+  "/home/ravikiran/CLionProjects/LoadBalancerServer/ConfigurationManagement/ConfigurationManager.cpp" "/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/CMakeFiles/LoadBalancer.dir/ConfigurationManagement/ConfigurationManager.cpp.o"
   "/home/ravikiran/CLionProjects/LoadBalancerServer/ConnectionMapper/ConnectionMapper.cpp" "/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/CMakeFiles/LoadBalancer.dir/ConnectionMapper/ConnectionMapper.cpp.o"
   "/home/ravikiran/CLionProjects/LoadBalancerServer/LoadBalancerServer/Server.cpp" "/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/CMakeFiles/LoadBalancer.dir/LoadBalancerServer/Server.cpp.o"
   "/home/ravikiran/CLionProjects/LoadBalancerServer/NetworkWorker/NetworkWorker.cpp" "/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/CMakeFiles/LoadBalancer.dir/NetworkWorker/NetworkWorker.cpp.o"
@@ -16,6 +17,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ravikiran/CLionProjects/LoadBalancerServer/Socket/Socket.cpp" "/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/CMakeFiles/LoadBalancer.dir/Socket/Socket.cpp.o"
   "/home/ravikiran/CLionProjects/LoadBalancerServer/ThreadPool/ThreadPool.cpp" "/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/CMakeFiles/LoadBalancer.dir/ThreadPool/ThreadPool.cpp.o"
   "/home/ravikiran/CLionProjects/LoadBalancerServer/main.cpp" "/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/CMakeFiles/LoadBalancer.dir/main.cpp.o"
+  "/home/ravikiran/CLionProjects/LoadBalancerServer/tinyxml2/tinyxml2.cpp" "/home/ravikiran/CLionProjects/LoadBalancerServer/cmake-build-debug/CMakeFiles/LoadBalancer.dir/tinyxml2/tinyxml2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

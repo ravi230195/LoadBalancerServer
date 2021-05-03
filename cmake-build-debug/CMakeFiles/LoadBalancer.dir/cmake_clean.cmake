@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LoadBalancer.dir/ClientSocket/ClientSocket.cpp.o"
+  "CMakeFiles/LoadBalancer.dir/ConfigurationManagement/ConfigurationManager.cpp.o"
   "CMakeFiles/LoadBalancer.dir/ConnectionMapper/ConnectionMapper.cpp.o"
   "CMakeFiles/LoadBalancer.dir/LoadBalancerServer/Server.cpp.o"
   "CMakeFiles/LoadBalancer.dir/NetworkWorker/NetworkWorker.cpp.o"
@@ -11,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/LoadBalancer.dir/Socket/Socket.cpp.o"
   "CMakeFiles/LoadBalancer.dir/ThreadPool/ThreadPool.cpp.o"
   "CMakeFiles/LoadBalancer.dir/main.cpp.o"
+  "CMakeFiles/LoadBalancer.dir/tinyxml2/tinyxml2.cpp.o"
   "LoadBalancer"
   "LoadBalancer.pdb"
 )

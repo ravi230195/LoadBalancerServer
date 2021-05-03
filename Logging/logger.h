@@ -7,6 +7,7 @@
 #include <string.h>
 #include <thread>
 #include "unordered_map"
+#include "../Logging/debugUtils.cpp"
 
 //TAGS
 #define NEXTLINE     "\n"
@@ -24,10 +25,10 @@
 #define LOG_LEVEL   DEBUG // Default
 #endif
 
-#define LOG_FMT             "%-2s | %-20d | %4d:%-25s | %-20s |"
+#define LOG_FMT             "%-2s | %-20u | %4d:%-25s | %-20s |"
 #define LOG_ARGS(LOG_TAG)   LOG_TAG, std::this_thread::get_id(), __LINE__, __FUNCTION__, __FILENAME__
 
-#define FILE "temp.txt"
+
 
 #define PRINT(args, ...) fprintf(stderr, args, __VA_ARGS__)
 #define PRINTCONSOLE(args, ...) fprintf(stderr, args, __VA_ARGS__)

@@ -10,8 +10,12 @@
 using namespace std;
 
 void IThreadPool::createThreads() {
-    for(int i = 0; i < mThreadNumber; ++i)
+    traceDebug("Total Worker Threads [%d]", mThreadNumber);
+    for(int i = 0; i < mThreadNumber; ++i) {
         mThread.push_back(std::thread(&IThreadPool::doWork, this));
+        //string threadName = "Thread " + to_string(i);
+        //utils::addThreadName(mThread.back().get_id(), threadName);
+    }
 }
 
 

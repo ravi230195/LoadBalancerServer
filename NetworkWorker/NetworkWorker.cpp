@@ -73,7 +73,7 @@ void NetworkWorker::processResponse(std::pair<Socket *, std::string> response) {
     string uniqueId = res[0];
     traceDebug("unique Id [%s]", uniqueId.c_str());
     if(mConnectionMapper->getConnection(uniqueId))
-    mConnectionMapper->getConnection(uniqueId)->send(res[1]);
+        mConnectionMapper->getConnection(uniqueId)->send(res[1]);
     //traceDebug("resend the data : [%d] ", mConnectionMapper->getConnection(uniqueId)->getSocket());
     mConnectionMapper->removeConnection(uniqueId);
 }

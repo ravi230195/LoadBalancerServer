@@ -44,7 +44,7 @@ Server::Server(int port):mPort(port) {
         }
 
         list<Socket*>::iterator it = mConnections.begin();
-        traceDebug("Total Clients on Server [%d]", (int)mConnections.size());
+        traceDebug("Total Clients on Server on port [%d] and connections [%d]", mPort, (int)mConnections.size());
         while(it != mConnections.end())
         {
             Socket* connections = *it;

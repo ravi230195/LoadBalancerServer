@@ -9,6 +9,7 @@
 #include "../Socket/Socket.h"
 #include "mutex"
 
+
 class ConnectionMapper {
     std::unordered_map<std::string, Socket* > mMapper;
     std::mutex mConnectionMapMutex;

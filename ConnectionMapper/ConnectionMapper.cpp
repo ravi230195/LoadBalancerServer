@@ -58,6 +58,8 @@ Socket* ConnectionMapper::getConnection(const std::string uniqueId) {
 void ConnectionMapper::removeConnection(const std::string uniqueId) {
     {
         lock_guard<mutex> lock(mConnectionMapMutex);
+        if(mMapper.find(uniqueId) == mMapper.end())
+            return;
         mMapper.erase(uniqueId);
         delete mMapper[uniqueId];
     }

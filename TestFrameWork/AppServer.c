@@ -13,25 +13,26 @@
 #define PORT 8083
 #define SA struct sockaddr
 using namespace std;
+static int totalRequestServer;
 
 
-    vector<string> split(string s, char delimiter)
+vector<string> split(string s, char delimiter)
+{
+    vector<string> tokens;
+    string token;
+    istringstream tokenStream(s);
+    while(getline(tokenStream, token, delimiter))
     {
-        vector<string> tokens;
-        string token;
-        istringstream tokenStream(s);
-        while(getline(tokenStream, token, delimiter))
-        {
-            tokens.push_back(token);
-        }
-        return tokens;
+        tokens.push_back(token);
     }
+    return tokens;
+}
 
 void func(int sockfd, string data) {
     char buff[50];
     strcpy(buff, data.c_str());
     int n;
-    printf("data %s\n", buff);
+    printf("requestServed %d\n", totalRequestServer);
     write(sockfd, buff, sizeof(buff));
 }
 
@@ -58,8 +59,7 @@ void clientCall(string data)
     if (connect(sockfd, (SA *) &servaddr, sizeof(servaddr)) != 0) {
         printf("connection with the server failed...\n");
         exit(0);
-    } else
-        printf("connected to the server..\n");
+    }
 
     // function for chat
     func(sockfd, data);
@@ -67,6 +67,8 @@ void clientCall(string data)
     // close the socket
     close(sockfd);
 }
+
+
 
 int main(int argc , char *argv[]) {
     int socket_desc, new_socket, c;
@@ -99,25 +101,25 @@ int main(int argc , char *argv[]) {
     puts("Waiting for incoming connections...");
     c = sizeof(struct sockaddr_in);
     while ((new_socket = accept(socket_desc, (struct sockaddr *) &client, (socklen_t *) &c))) {
+        totalRequestServer++;
         //message = NULL;
         char readM[100];
         bzero(readM, sizeof(readM));
         read(new_socket, readM, sizeof(readM));
-        printf("Connection accepted... %s", readM);
+        printf("Connection accepted... data to process [%s] \n", readM);
 
         message = NULL;
         //Reply to the client
         message = "PROCESSING\n";
         write(new_socket, message, strlen(message));
 
-        sleep(3);
+        sleep(1);
 
         string data = readM;
         vector <string> res = split(data, ':');
 	
-	string ans = res[1] + ":Hello From AppServer " + res[0];
+	    string ans = res[1] + ":Hello From AppServer " + res[0];
         clientCall(ans);
-
     }
 }
 

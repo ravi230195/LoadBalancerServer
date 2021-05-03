@@ -12,7 +12,7 @@
 class AppServerInfo;
 class Socket;
 
-class ConsistentHashing: IServerSelectionAlgorithm {
+class ConsistentHashing: public IServerSelectionAlgorithm {
 public:
     ConsistentHashing(){
         populateConsistentHashingRing();

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <LoadServerPublicPort>8081</LoadServerPublicPort>
+    <LoadServerPrivatePort>8083</LoadServerPrivatePort>
+    <NumberOfWorkerHreads>50</NumberOfWorkerHreads>
+    <serverSelectionAlgorithm>RoundRobin</serverSelectionAlgorithm>
+    <AppServer Name="Appserver_1">
+        <AppServerConfiguration>
+            <AppServerName>server_1</AppServerName>
+            <AppServerIp>127.0.0.1</AppServerIp>
+            <AppServerPort>9090</AppServerPort>
+        </AppServerConfiguration>
+    </AppServer>
+    <AppServer Name="Appserver_2">
+        <AppServerConfiguration>
+            <AppServerName>server_2</AppServerName>
+            <AppServerIp>127.0.0.1</AppServerIp>
+            <AppServerPort>9091</AppServerPort>
+        </AppServerConfiguration>
+    </AppServer>
+    <AppServer Name="appserver_3">
+        <AppServerConfiguration>
+            <AppServerName>server_3</AppServerName>
+            <AppServerIp>127.0.0.1</AppServerIp>
+            <AppServerPort>9092</AppServerPort>
+        </AppServerConfiguration>
+    </AppServer>
+    <AppServer Name="appserver_4">
+        <AppServerConfiguration>
+            <AppServerName>server_4</AppServerName>
+            <AppServerIp>127.0.0.1</AppServerIp>
+            <AppServerPort>9093</AppServerPort>
+            <AppServerUp>True</AppServerUp>
+        </AppServerConfiguration>
+    </AppServer>
+</Configuration>

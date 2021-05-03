@@ -90,6 +90,12 @@
 		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ClientSocket/ClientSocket.h">
 			<Option target="LoadBalancer"/>
 		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ConfigurationManagement/ConfigurationManager.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ConfigurationManagement/ConfigurationManager.h">
+			<Option target="LoadBalancer"/>
+		</Unit>
 		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/ConnectionMapper/ConnectionMapper.cpp">
 			<Option target="LoadBalancer"/>
 		</Unit>
@@ -157,6 +163,12 @@
 			<Option target="LoadBalancer"/>
 		</Unit>
 		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/main.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/tinyxml2/tinyxml2.cpp">
+			<Option target="LoadBalancer"/>
+		</Unit>
+		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/tinyxml2/tinyxml2.h">
 			<Option target="LoadBalancer"/>
 		</Unit>
 		<Unit filename="/home/ravikiran/CLionProjects/LoadBalancerServer/CMakeLists.txt">
